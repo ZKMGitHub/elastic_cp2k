@@ -1,0 +1,14 @@
+# configs/config.yaml.example
+
+num_cores: 52
+cp2k_exec_path: "/home/zkm/CP2K/cp2k-2024.3/exe/local/cp2k.psmp"
+cellopt_inp: "cellopt.inp"
+cellopt_out: "cellopt.out"
+cellopt_jobname: "cellopt"
+geoopt_inp: "geoopt.inp"
+geoopt_out: "geoopt.out"
+geoopt_jobname: "geoopt"
+potential_file: "POTENTIAL"
+basis_set_file: "BASIS_MOLOPT"
+dftd3_dat: "dftd3.dat"
+up: 0.01

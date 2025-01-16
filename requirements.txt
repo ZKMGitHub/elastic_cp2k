@@ -1,0 +1,5 @@
+numpy==2.2.1
+ase==3.24.0
+subprocess
+pandas==2.2.3
+PyYAML==6.0.2
