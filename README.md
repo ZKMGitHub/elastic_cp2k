@@ -58,3 +58,34 @@ After the run is completed, a ```Cij.dat``` file will be generated in the curren
 1.955 -9.861 -0.739 1.085 16.353 3.684
 5.386 -8.352 -2.444 -7.662 3.684 37.282
 ```
+## Description
+- The method for constructing the crystal cell is:
+  - cell parameter *a* is parallel to *X*-axis and *b* is in the *XY* plane
+- $\epsilon_4$, $\epsilon_5$, and $\epsilon_6$ are the shear strains between *YZ*, *XZ*, and *XY* planes.
+
+$$
+  \begin{bmatrix}
+   \sigma_1 \rule{0pt}{0.75em}\\
+   \sigma_2 \rule{0pt}{0.75em}\\
+   \sigma_3 \rule{0pt}{0.75em}\\
+   \sigma_4 \rule{0pt}{0.75em}\\
+   \sigma_5 \rule{0pt}{0.75em}\\
+   \sigma_6 \rule{0pt}{0.75em}
+  \end{bmatrix}=
+  \begin{bmatrix}
+   C_{11} & C_{12} & C_{13} & C_{14} & C_{15} & C_{16} \rule{0pt}{0.75em}\\
+   & C_{22} & C_{23} & C_{24} & C_{25} & C_{26} \rule{0pt}{0.75em}\\
+   & & C_{33} & C_{34} & C_{35} & C_{36} \rule{0pt}{0.75em}\\
+   & & & C_{44} & C_{45} & C_{46} \rule{0pt}{0.75em}\\
+   & & & & C_{55} & C_{56} \rule{0pt}{0.75em}\\
+   & & & & & C_{66} \rule{0pt}{0.75em}
+  \end{bmatrix}
+  \begin{bmatrix}
+   \epsilon_1 \rule{0pt}{0.75em}\\
+   \epsilon_2 \rule{0pt}{0.75em}\\
+   \epsilon_3 \rule{0pt}{0.75em}\\
+   \epsilon_4 \rule{0pt}{0.75em}\\
+   \epsilon_5 \rule{0pt}{0.75em}\\
+   \epsilon_6 \rule{0pt}{0.75em}
+  \end{bmatrix}
+$$
