@@ -61,7 +61,7 @@ After the run is completed, a ```Cij.dat``` file will be generated in the curren
 ## Description
 - The method for constructing the crystal cell is:
   - cell parameter *a* is parallel to *X*-axis and *b* is in the *XY* plane
-- $\epsilon_4$, $\epsilon_5$, and $\epsilon_6$ are the shear strains between *YZ*, *XZ*, and *XY* planes.
+- $\epsilon_4$, $\epsilon_5$, and $\epsilon_6$ are the Engineering shear strains between *YZ*, *XZ*, and *XY* planes.
 
 $$
   \begin{bmatrix}
